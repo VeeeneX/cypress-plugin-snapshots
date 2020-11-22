@@ -1,6 +1,6 @@
 const {
   initPlugin
-} = require('cypress-plugin-snapshots/plugin');
+} = require('../../../plugin');
 
 module.exports = (on, config) => {
   initPlugin(on, config);

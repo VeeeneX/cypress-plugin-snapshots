@@ -1,4 +1,4 @@
-import 'cypress-plugin-snapshots/commands';
+import '../../../src/commands';
 
 Cypress.Screenshot.defaults({
   screenshotOnRunFailure: false,

@@ -69,13 +69,13 @@ async function matchImageSnapshot(data = {}) {
     exists,
     expected: getImageData(expected),
     passed: passed || autoPassed,
-    snapshotFile: path.relative(process.cwd(), snapshotFile),
+    snapshotFile,
     snapshotTitle,
     subject,
     updated,
     isImage: true,
   };
-
+  console.log(result)
   return result;
 }
 
